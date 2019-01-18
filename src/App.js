@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'react-bootstrap';
+import { Button, ButtonToolbar } from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -17,9 +17,11 @@ class App extends Component {
             Learn React
           </a>
           <div>
-            <Button bsStyle="danger">Hello World Danger</Button>
-            <Button bsStyle="primary">Hello World Primary</Button>
-            <Button bsStyle="success">Hello World Success</Button>
+            <ButtonToolbar>
+              <Button bsStyle="danger">Hello World Danger</Button>
+              <Button bsStyle="primary">Hello World Primary</Button>
+              <Button bsStyle="success">Hello World Success</Button>
+            </ButtonToolbar>
           </div>
         </header>
       </div>
