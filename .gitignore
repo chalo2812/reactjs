@@ -63,3 +63,4 @@ typings/
 # adicionales manual
 .idea/
 package-lock.json
+/gradlew.bat

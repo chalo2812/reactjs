@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -11,14 +12,15 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="App-link" href="https://reactjs.org"
+            target="_blank" rel="noopener noreferrer">
             Learn React
           </a>
+          <div>
+            <Button bsStyle="danger">Hello World Danger</Button>
+            <Button bsStyle="primary">Hello World Primary</Button>
+            <Button bsStyle="success">Hello World Success</Button>
+          </div>
         </header>
       </div>
     );
