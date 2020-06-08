@@ -66,4 +66,4 @@ package-lock.json
 /gradlew.bat
 Sera borrado .gradle/
 .gradle/
-build/
+build/**
