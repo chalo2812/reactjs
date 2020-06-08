@@ -18,13 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chalo2812/reactjs.git"
-  },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/chalo2812/reactjs#readme",
   "browserslist": [
     ">0.2%",
     "not dead",
