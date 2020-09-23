@@ -67,4 +67,4 @@ package-lock.json
 Sera borrado .gradle/
 .gradle/
 build/**
-/doc/
+doc/
