@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button, ButtonToolbar } from 'react-bootstrap';
+import DivIndex from './body/DivIndex.js';
+import Footer from './footer/Footer.js';
+
+//import { Button, ButtonToolbar } from 'react-bootstrap';
 
 class App extends Component {
   render() {
@@ -9,21 +12,18 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
           <a className="App-link" href="https://reactjs.org"
             target="_blank" rel="noopener noreferrer">
             Learn React
           </a>
-          <div>
-            <ButtonToolbar>
-              <Button bsStyle="danger">Hello World Danger</Button>
-              <Button bsStyle="primary">Hello World Primary</Button>
-              <Button bsStyle="success">Hello World Success</Button>
-            </ButtonToolbar>
-          </div>
         </header>
+        <body className="App-body">
+          <DivIndex>
+          </DivIndex>
+        </body>
+        <footer className="App-footer">
+          <Footer></Footer>
+        </footer>
       </div>
     );
   }
