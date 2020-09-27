@@ -5,7 +5,7 @@ class DivIndex extends Component {
   render() {
     return (
       <div className="DivIndex">
-				Index VERGA
+				DivIndex
       </div>
     );
   }

@@ -4,9 +4,9 @@ import './Footer.css';
 class Footer extends Component {
   render() {
     return (
-      <footer className="Footer">
-				Index VERGA
-      </footer>
+      <div className="Footer">
+				Footer
+      </div>
     );
   }
 }

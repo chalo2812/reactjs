@@ -16,14 +16,10 @@ class App extends Component {
             target="_blank" rel="noopener noreferrer">
             Learn React
           </a>
-        </header>
-        <body className="App-body">
           <DivIndex>
           </DivIndex>
-        </body>
-        <footer className="App-footer">
           <Footer></Footer>
-        </footer>
+        </header>
       </div>
     );
   }
