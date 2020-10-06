@@ -4,8 +4,8 @@ import './DivIndex.css';
 class DivIndex extends Component {
   render() {
     return (
-      <div className="DivIndex">
-				DivIndex
+      <div className="DivIndex" >
+				Div Index
       </div>
     );
   }

@@ -1,0 +1,47 @@
+.navbar {
+	-ms-flex-align: center;
+	-ms-flex-pack: justify;
+	-ms-flex-wrap: wrap;
+	align-items: center;
+	display: -ms-flexbox;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: .5rem 1rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: auto;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 35px;
+  transition: 1s;
+}
+
+.sidenav a {
+  padding: 0px 8px 0px 2rem;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
